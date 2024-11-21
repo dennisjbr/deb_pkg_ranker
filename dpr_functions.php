@@ -13,7 +13,7 @@ Options:
 -s  Suppress all output
 -m  Comma-separated list of mirror hostnames
 -d  Distribution version (e.g., stable, bullseye)
--p  Comma-separated list of suites to include
+-p  Comma-separated list of suites to include (main, contrib)
 -n  Number of top packages to report
 
 <architecture>
