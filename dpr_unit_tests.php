@@ -137,5 +137,5 @@ class unit_tests extends TestCase {
 }
 
 
-require_once("functions.php");
+require_once("dpr_functions.php");
 

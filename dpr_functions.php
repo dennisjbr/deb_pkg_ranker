@@ -107,7 +107,7 @@ function getOptions($args, $configFilename) {
             if (isset($ini[$key])) {
                 $optsVarType = gettype($opts[$key]);
                 $iniVarType = gettype($ini[$key]);
-                if ($optsVarType == $iniVarType) {
+                if ($optsVarType == $iniVarType) {  // If they types are different (e.g. array vs string) then the setting wasn't properly set
                     $opts[$key] = $ini[$key];
                 }
             }

@@ -41,7 +41,7 @@ PREREQUISITES/ASSUMPTIONS:
 ini_set("memory_limit", "2048M");
 $scriptDir = __DIR__;
 
-require_once("functions.php");
+require_once("dpr_functions.php");
 
 // set config file name to be same basename as this script with extension .ini
 $configFilename = __DIR__ . "/" . pathinfo(__FILE__, PATHINFO_FILENAME) . ".ini";
